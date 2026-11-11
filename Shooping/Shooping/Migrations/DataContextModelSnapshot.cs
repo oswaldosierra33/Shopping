@@ -112,7 +112,7 @@ namespace Shooping.Migrations
                     b.HasIndex("Name", "CountryId")
                         .IsUnique();
 
-                    b.ToTable("Estates");
+                    b.ToTable("States");
                 });
 
             modelBuilder.Entity("Shooping.Data.Entities.City", b =>

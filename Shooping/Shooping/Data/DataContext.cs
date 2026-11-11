@@ -11,7 +11,7 @@ namespace Shooping.Data
         }
         public DbSet<Country> Countries { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<State> Estates { get; set; }
+        public DbSet<State> States { get; set; }
         public DbSet<City> Cities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
